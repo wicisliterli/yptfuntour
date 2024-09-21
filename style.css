@@ -1,0 +1,89 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Carving;
+    src: url("fonts/Carving.otf")
+}
+@font-face {
+    font-family: Carving;
+    src: url("fonts/Carving-bold.otf")
+    font-weight: bold;
+}
+
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+    background: #fff url('img/loader.gif') no-repeat center center;
+    background-size: 100px;
+}
+
+.main {
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)), url("img/chou.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.header {
+    box-shadow: 0px 0px 25px black;
+    padding: 10px;
+    text-align: center;
+    background: rgb(255 255 255 / 50%);
+    color: blue;
+    font-size: 30px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 25px black;
+    background: rgb(0 0 0 / 50%);
+    font-size: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-family: Carving;
+    text-align: center;
+}
+
+.tim {
+    font-family: Carving;
+    font-size: 15px;
+}
+
+table {
+    padding: 5px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+th, td {
+    padding: 8px;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
